@@ -1,0 +1,51 @@
+<svg width="2400" height="1400" viewBox="0 0 2400 1400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="2400" height="1400" fill="#0A0A0A"/>
+  <rect x="0" y="0" width="2400" height="1400" fill="url(#roomGlow)"/>
+  <path d="M0 220H780V1400H0V220Z" fill="#111111"/>
+  <path d="M780 150H1640V1400H780V150Z" fill="#171717"/>
+  <path d="M1640 0H2400V1400H1640V0Z" fill="#0D0D0D"/>
+  <path d="M1460 0H1616V1400H1460V0Z" fill="#0A0A0A"/>
+  <path d="M1640 0H1712V1400H1640V0Z" fill="#262626" opacity="0.42"/>
+  <path d="M820 180H1414V980H820V180Z" fill="url(#windowLight)"/>
+  <path d="M860 180H910V980H860V180Z" fill="#0A0A0A" opacity="0.64"/>
+  <path d="M1362 180H1414V980H1362V180Z" fill="#0A0A0A" opacity="0.7"/>
+  <path d="M956 180H982V980H956V180Z" fill="#111111" opacity="0.35"/>
+  <path d="M1054 180H1078V980H1054V180Z" fill="#111111" opacity="0.32"/>
+  <path d="M1150 180H1174V980H1150V180Z" fill="#111111" opacity="0.32"/>
+  <path d="M1248 180H1274V980H1248V180Z" fill="#111111" opacity="0.34"/>
+  <path d="M0 970H2400V1400H0V970Z" fill="url(#floor)"/>
+  <path d="M536 905H1590C1660.14 905 1717 961.86 1717 1032V1138H410V1032C410 961.86 466.86 905 536 905Z" fill="#151515"/>
+  <path d="M485 1000H1662V1172H485V1000Z" fill="#0B0B0B"/>
+  <path d="M530 872H1022C1075.02 872 1118 914.98 1118 968V1012H430V972C430 916.77 474.77 872 530 872Z" fill="#202020"/>
+  <path d="M1138 872H1630C1683.02 872 1726 914.98 1726 968V1012H1038V972C1038 916.77 1082.77 872 1138 872Z" fill="#1B1B1B"/>
+  <path d="M420 1172H1740V1204H420V1172Z" fill="#171717"/>
+  <path d="M610 1204H648V1312H610V1204Z" fill="#111111"/>
+  <path d="M1512 1204H1550V1312H1512V1204Z" fill="#111111"/>
+  <path d="M1840 710C1900 690 1978 694 2032 742C2079 784 2086 857 2054 915C2015 985 1914 1008 1840 972V710Z" fill="#111111" opacity="0.92"/>
+  <path d="M1876 618V1020" stroke="#262626" stroke-width="6" opacity="0.62"/>
+  <path d="M1878 756C1958 716 2018 694 2090 650" stroke="#262626" stroke-width="5" opacity="0.5"/>
+  <path d="M1878 842C1960 820 2022 808 2105 812" stroke="#262626" stroke-width="5" opacity="0.45"/>
+  <path d="M1878 918C1950 942 2006 956 2076 992" stroke="#262626" stroke-width="5" opacity="0.38"/>
+  <rect width="2400" height="1400" fill="url(#vignette)"/>
+  <defs>
+    <radialGradient id="roomGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1250 540) rotate(90) scale(790 1050)">
+      <stop stop-color="#F5F5F5" stop-opacity="0.12"/>
+      <stop offset="0.42" stop-color="#A1A1A1" stop-opacity="0.04"/>
+      <stop offset="1" stop-color="#0A0A0A" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="windowLight" x1="1117" y1="180" x2="1117" y2="980" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F5F5F5" stop-opacity="0.68"/>
+      <stop offset="0.52" stop-color="#A1A1A1" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="#262626" stop-opacity="0.1"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="1200" y1="970" x2="1200" y2="1400" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#171717"/>
+      <stop offset="1" stop-color="#0A0A0A"/>
+    </linearGradient>
+    <radialGradient id="vignette" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1300 620) rotate(90) scale(980 1560)">
+      <stop offset="0.36" stop-color="#0A0A0A" stop-opacity="0"/>
+      <stop offset="0.78" stop-color="#0A0A0A" stop-opacity="0.72"/>
+      <stop offset="1" stop-color="#0A0A0A"/>
+    </radialGradient>
+  </defs>
+</svg>
